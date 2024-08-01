@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package devices;
 
+option go_package = "./genprotos";
+
 message Device {
     string id = 1;
     string name = 2;
